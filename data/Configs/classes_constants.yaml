@@ -1,0 +1,116 @@
+# Настройки игрока
+player:
+  # Position
+  startX: 0
+  startY: 0
+  startDirection: "right"
+
+  # Movement
+  moveSpeed: 0.5
+  jumpForce: 1.3
+  gravity: 0.003
+
+  # Health
+  maxHealth: 10
+  heartOffset: 2
+
+  #effects
+  invincibilityDuration: 1500
+  invincibilityBlinkDuration: 150
+
+  stunDuration: 250
+  
+  # Хитбокс
+  hitbox_offset_x: 0
+  hitbox_offset_y: 0
+  hitbox_width: 68
+  hitbox_height: 118
+  
+
+# Настройки монстров
+monster:
+  # Общие параметры
+  speed: 0.3
+  gravity: 0.003
+  time_step: 0.005
+  
+  # Хитбокс
+  hitbox_offset_x: 0
+  hitbox_offset_y: 0
+  hitbox_width: 0
+  hitbox_height: 0
+  
+  # Здоровье
+  max_health: 3
+  damage: 1
+  knockback_force: 0.8
+  
+  # Время между атаками (секунды)
+  attack_cooldown: 1.0
+  
+  # Детекция игрока
+  detection_radius: 300  # пиксели
+  attack_radius: 50      # пиксели
+
+# Настройки карты
+map:
+  # Размер тайла
+  tile_size: 32  # пиксели
+  
+  # Слои карты
+  layers:
+    background: 0
+    platforms: 1
+    decorations: 2
+    entities: 3
+    ui: 4
+  
+  # Параметры генерации
+  chunk_size: 20  # количество тайлов в чанке
+  view_distance: 2  # количество загруженных чанков в каждую сторону
+
+# Настройки камеры
+camera:
+  # Смещение от центра игрока (0.5 - центр камеры на игроке)
+  offset_x: 0.5
+  offset_y: 0.5
+  
+  # Плавность камеры (0.0 - мгновенное перемещение, 1.0 - очень плавное)
+  smoothness: 0.1
+  
+  # Ограничения движения камеры (в пикселях)
+  bounds_left: 0
+  bounds_top: 0
+  bounds_right: 0  # 0 - без ограничений
+  bounds_bottom: 0  # 0 - без ограничений
+
+
+# Настройки физики
+physics:
+  # Гравитация
+  gravity: 0.003
+  
+  # Трение
+  friction: 0.9
+  
+  # Упругость при отскоке (0.0 - нет отскока, 1.0 - полный отскок)
+  bounciness: 0.2
+  
+  # Точность определения коллизий (чем больше, тем точнее, но медленнее)
+  collision_iterations: 5
+
+# Настройки UI
+ui:
+  # Размер шрифта
+  font_size_small: 14
+  font_size_medium: 18
+  font_size_large: 24
+  
+  # Цвета
+  text_color: "#FFFFFF"
+  health_color: "#FF0000"
+  mana_color: "#0000FF"
+  
+  # Отступы
+  padding: 10
+  margin: 5

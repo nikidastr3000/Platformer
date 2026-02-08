@@ -1,0 +1,21 @@
+# Основные настройки игры
+game:
+  title: "Platformer Game"
+  version: "1.0.0"
+  screen_width: 1920
+  screen_height: 1080
+  fps: 60
+  
+# Физика
+physics:
+  gravity: 0.003
+  terminal_velocity: 10.0
+  friction: 0.9
+  air_resistance: 0.99
+
+# UI элементы
+ui:
+  health:
+    heart_size: {x: 30, y: 30}
+    heart_gap: 2
+    position: {x: 20, y: 20}

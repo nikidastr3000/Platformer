@@ -1,0 +1,20 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-g",
+      "-Wall",
+      "-fsanitize=address",
+      "-I/home/niki/Progr/Libs/SFML-3.0.0/include",
+      "-Iinclude",
+      "-fsanitize=address",
+      "-o",
+      "main",
+      "main.cpp"
+    ],
+    "directory": "/home/niki/Progr/Games/Platformer/SFML_tests",
+    "file": "/home/niki/Progr/Games/Platformer/SFML_tests/main.cpp",
+    "output": "/home/niki/Progr/Games/Platformer/SFML_tests/main"
+  }
+]

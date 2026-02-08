@@ -1,0 +1,146 @@
+[
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-g",
+      "-Wall",
+      "-fsanitize=address",
+      "-I/home/niki/Progr/Libs/SFML-3.0.0/include",
+      "-Iinclude",
+      "-fsanitize=address",
+      "-o",
+      "main",
+      "src/main.cpp"
+    ],
+    "directory": "/home/niki/Progr/Games/Platformer/Platformer",
+    "file": "/home/niki/Progr/Games/Platformer/Platformer/src/main.cpp",
+    "output": "/home/niki/Progr/Games/Platformer/Platformer/main"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-g",
+      "-Wall",
+      "-fsanitize=address",
+      "-I/home/niki/Progr/Libs/SFML-3.0.0/include",
+      "-Iinclude",
+      "-fsanitize=address",
+      "-o",
+      "main",
+      "src/player.cpp"
+    ],
+    "directory": "/home/niki/Progr/Games/Platformer/Platformer",
+    "file": "/home/niki/Progr/Games/Platformer/Platformer/src/player.cpp",
+    "output": "/home/niki/Progr/Games/Platformer/Platformer/main"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-g",
+      "-Wall",
+      "-fsanitize=address",
+      "-I/home/niki/Progr/Libs/SFML-3.0.0/include",
+      "-Iinclude",
+      "-fsanitize=address",
+      "-o",
+      "main",
+      "src/map.cpp"
+    ],
+    "directory": "/home/niki/Progr/Games/Platformer/Platformer",
+    "file": "/home/niki/Progr/Games/Platformer/Platformer/src/map.cpp",
+    "output": "/home/niki/Progr/Games/Platformer/Platformer/main"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-g",
+      "-Wall",
+      "-fsanitize=address",
+      "-I/home/niki/Progr/Libs/SFML-3.0.0/include",
+      "-Iinclude",
+      "-fsanitize=address",
+      "-o",
+      "main",
+      "src/camera.cpp"
+    ],
+    "directory": "/home/niki/Progr/Games/Platformer/Platformer",
+    "file": "/home/niki/Progr/Games/Platformer/Platformer/src/camera.cpp",
+    "output": "/home/niki/Progr/Games/Platformer/Platformer/main"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-g",
+      "-Wall",
+      "-fsanitize=address",
+      "-I/home/niki/Progr/Libs/SFML-3.0.0/include",
+      "-Iinclude",
+      "-fsanitize=address",
+      "-o",
+      "main",
+      "src/monster.cpp"
+    ],
+    "directory": "/home/niki/Progr/Games/Platformer/Platformer",
+    "file": "/home/niki/Progr/Games/Platformer/Platformer/src/monster.cpp",
+    "output": "/home/niki/Progr/Games/Platformer/Platformer/main"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-g",
+      "-Wall",
+      "-fsanitize=address",
+      "-I/home/niki/Progr/Libs/SFML-3.0.0/include",
+      "-Iinclude",
+      "-fsanitize=address",
+      "-o",
+      "main",
+      "src/eventSystem.cpp"
+    ],
+    "directory": "/home/niki/Progr/Games/Platformer/Platformer",
+    "file": "/home/niki/Progr/Games/Platformer/Platformer/src/eventSystem.cpp",
+    "output": "/home/niki/Progr/Games/Platformer/Platformer/main"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-g",
+      "-Wall",
+      "-fsanitize=address",
+      "-I/home/niki/Progr/Libs/SFML-3.0.0/include",
+      "-Iinclude",
+      "-fsanitize=address",
+      "-o",
+      "main",
+      "src/weapon.cpp"
+    ],
+    "directory": "/home/niki/Progr/Games/Platformer/Platformer",
+    "file": "/home/niki/Progr/Games/Platformer/Platformer/src/weapon.cpp",
+    "output": "/home/niki/Progr/Games/Platformer/Platformer/main"
+  },
+  {
+    "arguments": [
+      "/usr/bin/g++",
+      "-c",
+      "-g",
+      "-Wall",
+      "-fsanitize=address",
+      "-I/home/niki/Progr/Libs/SFML-3.0.0/include",
+      "-Iinclude",
+      "-fsanitize=address",
+      "-o",
+      "main",
+      "src/animation.cpp"
+    ],
+    "directory": "/home/niki/Progr/Games/Platformer/Platformer",
+    "file": "/home/niki/Progr/Games/Platformer/Platformer/src/animation.cpp",
+    "output": "/home/niki/Progr/Games/Platformer/Platformer/main"
+  }
+]
